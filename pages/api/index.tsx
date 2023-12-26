@@ -68,7 +68,7 @@ export default async function handler(req: NextRequest) {
       <div
         tw={`h-full w-full px-18 py-14 bg-${theme}-200 flex flex-col justify-between`}
       >
-        <h1 tw="text-8xl leading-none" style={{ fontFamily: 'Caprasimo' }}>
+        <h1 tw="text-8xl leading-none" style={{ fontFamily: 'Outfit' }}>
           {title}
         </h1>
         <p
@@ -79,7 +79,7 @@ export default async function handler(req: NextRequest) {
         </p>
         <div tw="w-full flex flex-row items-center">
           <span tw={`text-3xl text-${theme}-600 mr-auto`}>
-            <span style={{ fontFamily: 'RobotoMonoRegular' }}>TechLingo.fyi/{path}</span>
+            <span style={{ fontFamily: 'RobotoMonoRegular' }}>{path}</span>
           </span>
 
           <svg viewBox="0 0 512 512" width={50}  xmlns="http://www.w3.org/2000/svg">
